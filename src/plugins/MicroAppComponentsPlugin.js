@@ -8,5 +8,7 @@ export default {
 
          app.component(cmpntName, MicroAppVueComponents[key])
       })
+
+      console.log('Micro app plugin initialized.')
    }
 }

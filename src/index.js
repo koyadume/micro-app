@@ -1,2 +1,2 @@
-export { default as RocketComponentsPlugin } from './plugins/RocketComponentsPlugin'
+export { default as MicroAppComponentsPlugin } from './plugins/MicroAppComponentsPlugin'
 
