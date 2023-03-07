@@ -1,2 +1,2 @@
-export { default as MicroAppComponentsPlugin } from './plugins/MicroAppComponentsPlugin'
-
+export * from './composables'
+export * from './stores'

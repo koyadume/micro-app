@@ -1,5 +1,5 @@
 {
-   "name": "@mechcloud/micro-app",
+   "name": "@koyadume/micro-app",
    "private": true,
    "version": "1.0.0",
    "module": "./dist/vue-components.mjs",
@@ -8,6 +8,7 @@
       "preview": "vite preview --host 0.0.0.0 --port 8091"
    },
    "dependencies": {
+      "pinia": "^2.0.33",
       "vue": "^3.2.47"
    },
    "devDependencies": {
