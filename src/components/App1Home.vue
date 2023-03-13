@@ -1,7 +1,13 @@
 <template>
   <h3 style="margin-top: 1rem;">{{ msg }}</h3>
-  <!-- <p>I'm a micro app which contains remote components.</p> -->
+  <p>I'm a micro app which contains remote components.</p>
 </template>
+
+<script>
+   export default {
+      inheritAttrs: false
+   }
+</script>
 
 <script setup>
    import { ref, onMounted } from 'vue';

@@ -5,13 +5,14 @@
    "module": "./dist/vue-components.mjs",
    "scripts": {
       "build": "vite build",
-      "preview": "vite preview --host 0.0.0.0 --port 8091"
+      "preview": "vite preview --host :: --port 8091"
    },
    "dependencies": {
       "vue": "^3.2.47"
    },
    "devDependencies": {
       "@rollup/plugin-replace": "^5.0.2",
+      "@rollup/plugin-virtual": "^3.0.1",
       "@vitejs/plugin-vue": "^4.0.0",
       "eslint": "^8.35.0",
       "eslint-plugin-vue": "^9.9.0",
